@@ -1,3 +1,4 @@
+#![feature(generic_associated_types)]
 #![cfg_attr(not(feature = "std"), no_std)]
 #![cfg_attr(feature = "async", feature(type_alias_impl_trait))]
 #![cfg_attr(docsrs, feature(doc_cfg))]
